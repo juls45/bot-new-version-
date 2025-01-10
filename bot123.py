@@ -58,8 +58,8 @@ async def joined(ctx, member: discord.Member):
 
 
 @bot.group()
-async def cool(ctx):
-    """Says if a user is cool.
+async def nice(ctx):
+    """Says if a user is nice.
 
     In reality this just checks if a subcommand is being invoked.
     """
